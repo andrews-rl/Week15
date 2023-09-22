@@ -1,38 +1,102 @@
-.App {
-  text-align: center;
+/* Add your global CSS styles here */
+
+/* Styles for the body of the document */
+body {
+  font-family: Arial, sans-serif; /* Use Arial or sans-serif font family */
+  background-color: #dfe6eb; /* Set the background color */
+  margin: 0; /* Remove margin */
+  padding: 0; /* Remove padding */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Styles for container elements */
+.container {
+  max-width: none; /* Remove maximum width constraint */
+  max-height: none; /* Remove maximum height constraint */
+  margin: 0 auto; /* Center align the container */
+  padding: 20px; /* Add padding inside the container */
+  border-radius: 8px; /* Add rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a shadow effect */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Styles for the navigation bar */
+.navBar {
+  background-color: #343a40; /* Set the background color */
+  padding: 10px 0; /* Add padding to the top and bottom */
+  text-align: center; /* Center align text */
+  color: black; /* Set text color */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Styles for the navigation bar list */
+.navBar ul {
+  list-style-type: none; /* Remove list bullets */
+  padding: 0; /* Remove padding */
 }
 
-.App-link {
-  color: #61dafb;
+/* Styles for the navigation bar list items */
+.navBar li {
+  display: inline; /* Display items inline */
+  margin-right: 15px; /* Add right margin between items */
+  color: white; /* Set text color to white */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Styles for navigation bar links */
+.navBar a {
+  text-decoration: none; /* Remove underlines from links */
+  color: black; /* Set link color */
+}
+
+/* Styles for the CRUD container */
+.CRUD-container {
+  justify-content: space-between; /* Create space between elements */
+  margin-top: 40px; /* Add top margin */
+  background-color: #343a40; /* Set the background color */
+  color: white; /* Set text color to white */
+  height: 400px; /* Set the container's height */
+  border: 8px solid white; /* Add a thick white border */
+  border-radius: 10px; /* Add rounded edges */
+}
+
+/* Styles for custom buttons */
+.custom-btn {
+  width: 100px; /* Set button width */
+  height: 40px; /* Set button height */
+  border-radius: 8px; /* Add rounded corners */
+  cursor: pointer; /* Set cursor to pointer */
+}
+
+/* Styles for the WelcomeSection */
+.WelcomeSection {
+  display: flex; /* Use flexbox */
+  justify-content: space-between; /* Create space between elements */
+  margin-top: 20px; /* Add top margin */
+  background-color: #343a40; /* Set the background color */
+  color: white; /* Set text color to white */
+}
+
+/* Styles for navigation bar links with class .nav-link */
+.nav-link {
+  font-size: 20px; /* Set font size for navigation links */
+}
+
+/* Styles for navigation bar links with class .nav-link2 */
+.nav-link2 {
+  font-size: 20px; /* Set font size for navigation links */
+}
+
+/* Styles for the MJ-container */
+.MJ-container {
+  justify-content: space-between; /* Create space between elements */
+  margin-top: 20px; /* Add top margin */
+  background-color: #343a40; /* Set the background color */
+  color: white; /* Set text color to white */
+  height: 475px; /* Set the container's height */
+  border: 8px solid white; /* Add a thick white border */
+  border-radius: 10px; /* Add rounded edges */
+}
+
+/* Styles for the monkey image */
+.monkey-image {
+  border: 8px solid #17a2b8; /* Add a thick border with a specific color */
+  object-fit: cover; /* Resize the image to cover the container */
+  border-radius: 10px; /* Add rounded corners to the image */
 }
